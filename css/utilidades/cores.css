@@ -27,3 +27,11 @@
 
 
 }
+
+.cor-0 {
+    color: var(--w);
+}
+
+.cor-5 {
+    color: var(--c05);
+}
