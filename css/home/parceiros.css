@@ -42,6 +42,11 @@
         padding-bottom: 120px;
     }
 
+    .parceiros li {
+        display: flex;
+        padding: 20px;
+    }
+
     .parceiros h2 {
         margin-bottom: 20px;
     }
@@ -55,7 +60,7 @@
         border-top: 2px solid var(--c02);
     }
 
-    .parceiros li:nth-child(odd){
+    .parceiros li:nth-child(odd) {
         border-left: none;
     }
 }
