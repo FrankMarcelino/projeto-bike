@@ -40,12 +40,4 @@ p {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
 
-.interface {
-    box-sizing: border-box;
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 1200px;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
