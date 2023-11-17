@@ -23,15 +23,104 @@
     --p2: #e4a30b;
     --p1: #ffbb00;
 
-    /* tipo grafia */
-
-
 }
 
+
+/* tons de cinza */
 .cor-0 {
     color: var(--w);
 }
 
+.cor-1 {
+    color: var(--c01);
+}
+
+
+.cor-2 {
+    color: var(--c02);
+}
+
+
+
+.cor-3 {
+    color: var(--c03);
+}
+
+
+
+.cor-4 {
+    color: var(--c04);
+}
+
+
+
 .cor-5 {
     color: var(--c05);
+}
+
+
+
+.cor-6 {
+    color: var(--c06);
+}
+
+
+
+.cor-7 {
+    color: var(--c07);
+}
+
+
+
+.cor-8 {
+    color: var(--c08);
+}
+
+
+
+.cor-9 {
+    color: var(--c09);
+}
+
+
+
+.cor-10 {
+    color: var(--c10);
+}
+
+
+
+.cor-11 {
+    color: var(--c11);
+}
+
+
+
+.cor-12 {
+    color: var(--c12);
+}
+
+
+
+/* cores de amarelo */
+
+
+.cor-p1 {
+    color: var(--p1);
+}
+
+.cor-p2 {
+    color: var(--p2);
+}
+
+.cor-p3 {
+    color: var(--p3);
+}
+
+.cor-p4 {
+    color: var(--p4);
+}
+
+.cor-p5 {
+    color: var(--p5);
 }
