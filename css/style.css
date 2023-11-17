@@ -35,34 +35,69 @@
 }
 
 
-
+/* Globais */
 
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 ul {
     list-style: none;
-    margin-top: 0;
+    margin: 0;
     padding: 0;
+    
 }
 
 a {
     text-decoration: none;
+    color: inherit;
+}
+
+.btn-style-1{
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient( #ffbf00, #f2a50c);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
+    text-transform: uppercase;
+    color: var(--p5);
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: bold;
+    font-family: 'poppins',Arial, Helvetica, sans-serif;
+}
+
+.btn-style-1:hover {
+    background: linear-gradient(#ffb60d, #e59317);
 }
 
 h1,
 h2,
 h3,
 h4 {
+    margin: 0px;
     font-family: 'poppins', Arial, Helvetica, sans-serif;
 }
 
 p {
+    margin: 0;
     font-family: 'roboto', Arial, Helvetica, sans-serif;
 }
 
+.interface {
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header */
 .header-bg {
     background-color: var(--c12);
 }
@@ -73,10 +108,7 @@ p {
     gap: 20px;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+ 
 }
 
 .header-menu {
@@ -146,3 +178,40 @@ p {
         font-size: 14px;
     }
 }
+
+/* main */
+
+.introducao-bg {
+    background-color: var(--c12);
+    color: var(--w);
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+}
+
+.introducao-conteudo {
+    align-self: flex-end;
+    padding-bottom: 80px;
+}
+
+.introducao h1 {
+    margin-bottom: 32px;
+    font-size: 64px;
+    /* defina o line-height com valor relativo, para  isso divida o valor de line-height por o font-size */
+    line-height: 1.125;
+}
+
+.introducao h1 span {
+    color: var(--p1);
+}
+
+.introducao p {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--c05);
+}
+
