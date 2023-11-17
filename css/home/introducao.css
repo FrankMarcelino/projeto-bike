@@ -26,10 +26,6 @@
     line-height: 1.125;
 }
 
-.introducao h1 span {
-    color: var(--p1);
-}
-
 .introducao p {
     margin-bottom: 20px;
     font-size: 24px;
@@ -39,14 +35,6 @@
 }
 
 @media (max-width: 1200px) {
-
-
-
-
-
-    .introducao img {
-        margin-bottom: 0;
-    }
 
     .introducao h1 {
         font-size: 48px;
@@ -81,7 +69,6 @@
     }
 
     .introducao h1 {
-        font-size: 32px;
         margin-bottom: 16px;
     }
 
