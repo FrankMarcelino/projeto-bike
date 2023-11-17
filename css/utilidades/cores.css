@@ -1,4 +1,6 @@
 /* ----- cores ----- */
+
+/* variaveis cores */
 :root {
     /* tons de cinza até o preto */
     --c12: #000000;
@@ -25,8 +27,9 @@
 
 }
 
+/* ----------------------------- */
 
-/* tons de cinza */
+/* tons de cinza classes */
 .cor-0 {
     color: var(--w);
 }
