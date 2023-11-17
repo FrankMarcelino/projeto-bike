@@ -39,7 +39,8 @@ p {
 
 .interface {
     box-sizing: border-box;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     max-width: 1200px;
     margin: 0 auto;
 }

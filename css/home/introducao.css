@@ -20,31 +20,13 @@
 
 .introducao h1 {
     margin-bottom: 32px;
-    font-weight: 400;
-    font-size: 64px;
-    /* defina o line-height com valor relativo, para  isso divida o valor de line-height por o font-size */
-    line-height: 1.125;
+
 }
 
 .introducao p {
     margin-bottom: 20px;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: var(--c05);
 }
 
-@media (max-width: 1200px) {
-
-    .introducao h1 {
-        font-size: 48px;
-    }
-
-    .introducao p {
-        font-size: 18px;
-    
-    }
-}
 
 @media (max-width: 800px) {
 
