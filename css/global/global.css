@@ -9,6 +9,9 @@ body {
 img {
     max-width: 100%;
     display: block;
+}
+
+img[src$=".jpg"] {
     border-radius: 4px;
 }
 
@@ -42,5 +45,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     max-width: 1200px;
-    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }

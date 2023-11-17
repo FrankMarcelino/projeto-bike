@@ -1,6 +1,7 @@
 /* header */
 .header-bg {
     background-color: var(--c12);
+    
 }
 
 .header {
@@ -9,6 +10,7 @@
     gap: 20px;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 0px;
 
 }
 
@@ -42,6 +44,10 @@
 }
 
 @media (max-width: 800px) {
+    .header-bg {
+        padding: 10px;
+    }
+
     .header-menu {
         gap: 20px;
     }
