@@ -12,19 +12,23 @@
 /* ------utilidades------- */
 @import "./utilidades/cores.css";
 @import "./utilidades/componentes.css";
+@import "./utilidades/titulos-pg-internas.css";
 
 /* -----home------- */
 @import "./home/introducao.css";
-@import "home/tecnologias.css";
-@import "home/parceiros.css";
-@import "home/depoimento.css";
+@import "./home/tecnologias.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
 
 
 /* -----bicicletas---- */
 @import "./bicicletas/bicicletas-lista.css";
 
 /* ------ seguros ----- */
-@import "seguros/seguros.css";
+@import "./seguros/seguros.css";
+
+/* ---temos---- */
+@import "./termos/termos.css"
 
 
 /* -------------------------------------------------------- */
