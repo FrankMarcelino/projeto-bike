@@ -13,6 +13,7 @@
 @import "./utilidades/cores.css";
 @import "./utilidades/componentes.css";
 @import "./utilidades/titulos-pg-internas.css";
+@import "./utilidades/fromulario.css";
 
 /* -----home------- */
 @import "./home/introducao.css";
@@ -28,6 +29,10 @@
 /* -----bicicleta ----- */
 @import "./bicicleta/bicicleta.css";
 @import "./bicicleta/seguro.css";
+
+/*------ contato -----*/
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
 
 /* ------ seguros ----- */
 @import "./seguros/seguros.css";
