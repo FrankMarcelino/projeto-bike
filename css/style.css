@@ -40,8 +40,10 @@
 @import "./seguros/perguntas.css";
 
 /* ---temos---- */
-@import "./termos/termos.css"
+@import "./termos/termos.css";
 
+/* -----orçamento------ */
+@import "./orcamento/orcamento.css";
 
 /* -------------------------------------------------------- */
 
