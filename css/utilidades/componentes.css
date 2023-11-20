@@ -22,7 +22,8 @@
     color: var(--p5);
     font: 600 1.125rem/1.35 "Popprins", sans-serif;
     max-width: max-content;
-    
+    border: none;
+    cursor: pointer;
 }
 
 .btn-style-1:hover {
