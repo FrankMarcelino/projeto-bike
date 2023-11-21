@@ -18,12 +18,14 @@
 
 .contato-dados {
     border-radius: 5px 0 0 5px;
-    background: var(--c12);
+    background-color: var(--c12);
+    background-image: url('../../img/dec/bottom-left.svg') no-repeat bottom 20px left 20xp;
 }
 
 .contato-formulario {
     border-radius: 0px 5px 5px 0px;
-    background: var(--w);
+    background-color: var(--w);
+    background-image: url('../../img/dec/bottom-right-p.svg')  no-repeat bottom 20px right 20xp;
 }
 
 .contato-dados h2 {
@@ -67,14 +69,14 @@
 .contato-redes {
     display: flex;
     gap: 32px;
-    padding-left: 28px;  
+    padding-left: 28px;
 }
 
 @media (max-width: 800px) {
     .contato {
         grid-template-columns: 1fr;
     }
-    
+
     .contato-dados,
     .contato-formulario {
         padding: 20px;
